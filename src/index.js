@@ -16,6 +16,3 @@ module.exports = function multiply(first, second) {
 	while (resultstr[0] === 0) resultstr.shift();
 	return resultstr.join("");
 }
-
-return first * second;
-}
